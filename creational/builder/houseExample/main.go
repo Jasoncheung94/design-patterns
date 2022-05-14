@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	// go run *.go to build the example due to all files in the main package
+	// `go run *.go` to run the example due to all files in the main package
 	standardBuilder := getBuilder("house")
 	iglooBuilder := getBuilder("igloo")
 
