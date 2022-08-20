@@ -1,25 +1,30 @@
 ## Builder Pattern
 
-The builder pattern is a very common creational design pattern. Its main purpose is to encapsulate and simplify the creation of complex objects, which makes it much easier to create objects that can have many different representations.
+The builder pattern is a design pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
 
+### Advantages
 
-__Scenarios__: 
-- Objects that have complex API's, multiple constructor options, and several different representation.
-
-### Advantages & Disadvantages
+- Allows you to vary a product's internal representation.
 - Encapsulates code for construction and representation.
 - Provides control over steps of construction process.
-- A concrete builder must be created for each type of product.
+
+### Disadvantages
+
+- A distinct ConcreteBuilder must be created for each type of product.
 - Builder classes must be mutable.
-- May complicated dependency injection.
+- May hamper/complicate dependency injection.
 
+**Scenarios**:
 
-## Examples
+- Objects that have complex API's, multiple constructor options, and several different representation.
 
-There is different implementations of the builder, I've linked the different versions I have discovered so far. 
-The Pizza and House examples would be my preferred options to reference.
-| Type of example | 
-| --- |
-| [Pizza](./pizzaExample/) |
-| [House](./houseExample/) |
-| [Notification](./notificationExample/) |
+### Examples
+
+| Language   | Description    | Status | Code Examples                                    |
+| ---------- | -------------- | ------ | ------------------------------------------------ |
+| Golang(Go) | Simple Example | ✅     | [main.go](./simple-example/golang/main.go)       |
+| Python     | Simple Example | ✅     | [builder.py](./simple-example/python/builder.py) |
+
+### Additional Resources
+
+- [Builder Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)

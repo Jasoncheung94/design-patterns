@@ -6,7 +6,7 @@ This one instance provides a global access point to the object.
 
 ### Extra Resources
 
-[Singleton Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+- [Singleton Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ### Examples
 
