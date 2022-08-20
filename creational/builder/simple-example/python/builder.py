@@ -78,10 +78,10 @@ def construct(buildingType) -> Building:
 
 def main():
     house = construct(House)
-    flat = construct(Igloo)
+    igloo = construct(Igloo)
     complex_house = construct(ComplexHouse)
     print(house)
-    print(flat)
+    print(igloo)
     print(complex_house)
 
 
