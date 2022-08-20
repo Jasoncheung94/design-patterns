@@ -1,6 +1,8 @@
 # design-patterns
 
-Curated list of design patterns and idioms using Go.
+Curated list of design patterns and idioms using Go (mostly) and other languages such as Python.
+
+[Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 
 ## Creational Patterns
 
