@@ -22,7 +22,7 @@ The builder pattern is a design pattern designed to provide a flexible solution 
 
 | Language   | Description    | Status | Code Examples                                    |
 | ---------- | -------------- | ------ | ------------------------------------------------ |
-| Golang(Go) | Simple Example | ✅     | [main.go](./simple-example/golang/main.go)       |
+| Golang(Go) | Simple Example | ✅     | [main.go](./simple-example/golang/)       |
 | Python     | Simple Example | ✅     | [builder.py](./simple-example/python/builder.py) |
 
 ### Additional Resources
