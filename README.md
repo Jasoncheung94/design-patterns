@@ -8,14 +8,14 @@ Curated list of design patterns and idioms using Go (mostly) and other languages
 
 Creational patterns provide the capability to create objects based on a required criterion and in a controlled way.
 
-| Pattern                                       | Description                                                                                                                                           | Status |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Abstract Factory                              | Provides an interface for creating families of related objects without specifying their concrete classes                                              | ❌     |
-| [Builder](./creational/builder/README.md)     | Builds a complex object using simple objects. Allows you to produce different types and representations of an object using the same construction code | ✅     |
-| Chain of Responsibility                       | Allows you to pass requests along a chain of objects until one of them can handle the request.                                                        | ❌     |
-| Factory Method                                | Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created                   | ❌     |
-| Prototype                                     | allows cloning objects, even complex ones, without coupling to their specific classes                                                                 | ❌     |
-| [Singleton](./creational/singleton/README.md) | Only one object of its kind exists and provides a single point of access to it for any other code ( aka Global variable )                             | ✅     |
+| Pattern                                                     | Description                                                                                                                                           | Status |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| [Abstract Factory](./creational/abstract_factory/README.md) | Provides an interface for creating families of related objects without specifying their concrete classes                                              | ✅     |
+| [Builder](./creational/builder/README.md)                   | Builds a complex object using simple objects. Allows you to produce different types and representations of an object using the same construction code | ✅     |
+| Chain of Responsibility                                     | Allows you to pass requests along a chain of objects until one of them can handle the request.                                                        | ❌     |
+| Factory Method                                              | Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created                   | ❌     |
+| Prototype                                                   | allows cloning objects, even complex ones, without coupling to their specific classes                                                                 | ❌     |
+| [Singleton](./creational/singleton/README.md)               | Only one object of its kind exists and provides a single point of access to it for any other code ( aka Global variable )                             | ✅     |
 
 ## Structural Patterns
 
@@ -35,19 +35,19 @@ Structural patterns are about organizing different classes and objects to form l
 
 Behavioral patterns are about identifying common communication patterns between objects and realizing these patterns.
 
-| Pattern | Description | Status |
+| Pattern                 | Description                                                                                                               | Status |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Chain of Responsibility | Allows you to pass requests along a chain of objects until one of them can handle the request. | ❌ |
-| Command | Allows you to encapsulate a request as an object, thereby letting you parameterize other objects with different requests. | ❌ |
-| Interpreter | Allows you to implement an interpreter pattern. | ❌ |
-| Iterator | Allows you to traverse a set of objects without keeping them in memory. | ❌ |
-| Mediator | Allows you to decouple components that communicate with each other. | ❌ |
-| Memento | Allows you to save and restore the state of an object without breaking its encapsulation. | ❌ |
-| Observer | Allows you to decouple the subscriber from the publisher (sender) by implementing the publish/subscribe pattern. | ❌ |
-| State | Allows you to encapsulate the current state of an object in an object. | ❌ |
-| Strategy | Allows you to define a family of algorithms, put each one in a separate class, and make their objects interchangeable. | ❌ |
-| Template Method | Allows you to define the skeleton of an algorithm in an operation, deferring some steps to subclasses. | ❌ |
-| Visitor | Allows you to separate an algorithm from the data structures that support it. | ❌ |
+| Chain of Responsibility | Allows you to pass requests along a chain of objects until one of them can handle the request.                            | ❌     |
+| Command                 | Allows you to encapsulate a request as an object, thereby letting you parameterize other objects with different requests. | ❌     |
+| Interpreter             | Allows you to implement an interpreter pattern.                                                                           | ❌     |
+| Iterator                | Allows you to traverse a set of objects without keeping them in memory.                                                   | ❌     |
+| Mediator                | Allows you to decouple components that communicate with each other.                                                       | ❌     |
+| Memento                 | Allows you to save and restore the state of an object without breaking its encapsulation.                                 | ❌     |
+| Observer                | Allows you to decouple the subscriber from the publisher (sender) by implementing the publish/subscribe pattern.          | ❌     |
+| State                   | Allows you to encapsulate the current state of an object in an object.                                                    | ❌     |
+| Strategy                | Allows you to define a family of algorithms, put each one in a separate class, and make their objects interchangeable.    | ❌     |
+| Template Method         | Allows you to define the skeleton of an algorithm in an operation, deferring some steps to subclasses.                    | ❌     |
+| Visitor                 | Allows you to separate an algorithm from the data structures that support it.                                             | ❌     |
 
 ## Concurrency Patterns (TODO) - Find common idioms and patterns with different languages
 
@@ -66,3 +66,7 @@ Behavioral patterns are about identifying common communication patterns between 
 | Scheduler pattern         |             | ❌     |
 | Thread pool pattern       |             | ❌     |
 | Thread-local storage      |             | ❌     |
+
+## Additional Resources/References
+
+- [Refactoring Guru](https://refactoring.guru/design-patterns)
