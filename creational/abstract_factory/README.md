@@ -10,7 +10,7 @@ ie. Lets you produce families of related objects without specifying their concre
 
 ### Examples
 
-| Language   | Description | Status | Code Examples                                   |
-| ---------- | ----------- | ------ | ----------------------------------------------- |
-| Golang(Go) | Simple Example        | ✅     | [main](./simple-example/golang/)                |
-| Python     | TODO        | ❌     | ❌ |
+| Language   | Description          | Status | Code Examples                              |
+| ---------- | -------------------- | ------ | ------------------------------------------ |
+| Golang(Go) | Simple Example       | ✅     | [code](./simple-example/golang/)           |
+| Python     | Simple Example (GUI) | ✅     | [main.py](./simple-example/python/main.py) |
