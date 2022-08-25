@@ -8,14 +8,18 @@ Curated list of design patterns and idioms using Go (mostly) and other languages
 
 Creational patterns provide the capability to create objects based on a required criterion and in a controlled way.
 
-| Pattern                                                     | Description                                                                                                                                           | Status |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| [Abstract Factory](./creational/abstract_factory/README.md) | Provides an interface for creating families of related objects without specifying their concrete classes                                              | ✅     |
-| [Builder](./creational/builder/README.md)                   | Builds a complex object using simple objects. Allows you to produce different types and representations of an object using the same construction code | ✅     |
-| Chain of Responsibility                                     | Allows you to pass requests along a chain of objects until one of them can handle the request.                                                        | ❌     |
-| Factory Method                                              | Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created                   | ❌     |
-| Prototype                                                   | allows cloning objects, even complex ones, without coupling to their specific classes                                                                 | ❌     |
-| [Singleton](./creational/singleton/README.md)               | Only one object of its kind exists and provides a single point of access to it for any other code ( aka Global variable )                             | ✅     |
+| Pattern                                                     | Description                                                                                                                                                                          | Status |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
+| [Abstract Factory](./creational/abstract_factory/README.md) | Provides an interface for creating families of related objects without specifying their concrete classes                                                                             | ✅     |
+| [Builder](./creational/builder/README.md)                   | Builds a complex object using simple objects. Allows you to produce different types and representations of an object using the same construction code                                | ✅     |
+| Dependency Injection                                        | A class accepts the objects it requires from an injector instead of creating the objects directly.                                                                                   | ✅     |
+| Factory Method                                              | Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created                                                  | ❌     |
+| Lazy initialization                                         | A class that uses lazy initialization to delay the creation of an object until it is first used.                                                                                     | ❌     |
+| Multiton                                                    | A class that provides a named instances of itself. And provide a global point of access to them.                                                                                     | ❌     |
+| Object pool                                                 | Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns. | ❌     |
+| Prototype                                                   | allows cloning objects, even complex ones, without coupling to their specific classes.                                                                                               | ❌     |
+| Resource acquisition is initialization (RAII)               | Ensure that resources are properly released by tying them to the lifespan of suitable objects.                                                                                       | ❌     |
+| [Singleton](./creational/singleton/README.md)               | Only one object of its kind exists and provides a single point of access to it for any other code ( aka Global variable )                                                            | ✅     |
 
 ## Structural Patterns
 
