@@ -6,6 +6,8 @@ import (
 	"sync"
 )
 
+// A Pool is a set of temporary objects that may be individually saved and
+// retrieved.We will use this as our "map" to get instances of the buffer.
 var pool = sync.Pool{
 	// Creates an instance of a buffer if none are available to return.
 	// Must return an interface{} to make it flexible and cast your type when retrieving.
