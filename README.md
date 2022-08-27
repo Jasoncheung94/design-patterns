@@ -13,8 +13,8 @@ Creational patterns provide the capability to create objects based on a required
 | [Abstract Factory](./creational/abstract_factory/README.md)         | Provides an interface for creating families of related objects without specifying their concrete classes                                                                             | ✅     |
 | [Builder](./creational/builder/README.md)                           | Builds a complex object using simple objects. Allows you to produce different types and representations of an object using the same construction code                                | ✅     |
 | [Dependency Injection](./creational/dependency_injection/README.md) | A class accepts the objects it requires from an injector instead of creating the objects directly.                                                                                   | ✅     |
-| Factory Method                                                      | Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created                                                  | ❌     |
-| Lazy initialization                                                 | A class that uses lazy initialization to delay the creation of an object until it is first used.                                                                                     | ❌     |
+| Factory Method                                                      | Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created                                                  | ✅     |
+| Lazy initialization / Lazy Loading                                  | A class that uses lazy initialization to delay the creation of an object until it is first used.                                                                                     | ✅     |
 | Multiton                                                            | A class that provides a named instances of itself. And provide a global point of access to them.                                                                                     | ❌     |
 | Object pool                                                         | Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns. | ❌     |
 | Prototype                                                           | allows cloning objects, even complex ones, without coupling to their specific classes.                                                                                               | ❌     |
@@ -73,4 +73,5 @@ Behavioral patterns are about identifying common communication patterns between 
 
 ## Additional Resources/References
 
+- [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 - [Refactoring Guru](https://refactoring.guru/design-patterns)
