@@ -10,7 +10,7 @@ This one instance provides a global access point to the object.
 
 ### Examples
 
-| Language   | Description                                    | Status | Code Examples                                     |
-| ---------- | ---------------------------------------------- | ------ | ------------------------------------------------- |
-| Golang(Go) | Singleton simple example (not concurrent safe) | ✔      | [singleton.go](./simple-example/golang/singleton.go)  |
-| Python     | Singleton simple example (not thread safe)     | ✔      | [singleton.py](./simple-example/python/singleton.py) |
+| Language   | Description                                    | Status | Code Examples                                        |
+| ---------- | ---------------------------------------------- | ------ | ---------------------------------------------------- |
+| Golang(Go) | Singleton simple example (not concurrent safe) | ✅     | [singleton.go](./simple-example/golang/singleton.go) |
+| Python     | Singleton simple example (not thread safe)     | ✅     | [singleton.py](./simple-example/python/singleton.py) |
