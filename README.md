@@ -1,4 +1,4 @@
-# design-patterns
+# Design Patterns
 
 Curated list of design patterns and idioms using Go (mostly) and other languages such as Python.
 
@@ -17,8 +17,8 @@ Creational patterns provide the capability to create objects based on a required
 | Lazy initialization / Lazy Loading                                  | A class that uses lazy initialization to delay the creation of an object until it is first used.                                                                                     | ✅     |
 | Multiton                                                            | A class that provides a named instances of itself. And provide a global point of access to them. Allows for the controlled creation of multiple instances, which it manages.         | ✅     |
 | Object pool                                                         | Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns. | ✅     |
-| Prototype                                                           | Allows cloning objects, even complex ones, without coupling to their specific classes.                                                                                               | ❌     |
-| Resource acquisition is initialization (RAII)                       | Ensure that resources are properly released by tying them to the lifespan of suitable objects.                                                                                       | ❌     |
+| Prototype                                                           | Allows cloning objects, even complex ones, without coupling to their specific classes.                                                                                               | ✅     |
+| Resource acquisition is initialization (RAII)                       | Ensure that resources are properly released by tying them to the lifespan of suitable objects.                                                                                       | ✅     |
 | [Singleton](./creational/singleton/README.md)                       | Only one object of its kind exists and provides a single point of access to it for any other code ( aka Global variable )                                                            | ✅     |
 
 ## Structural Patterns
