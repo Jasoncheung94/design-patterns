@@ -10,5 +10,5 @@ Adapter pattern is a software design pattern (also known as wrapper, an alternat
 
 | Language   | Description    | Status | Code Examples                              |
 | ---------- | -------------- | ------ | ------------------------------------------ |
-| Golang(Go) | Simple Example | ❌     |                                            |
+| Golang(Go) | Simple Example | ✅     | [main.go](./simple-example/golang/main.go) |
 | Python     | Device Example | ✅     | [main.py](./simple-example/python/main.py) |
