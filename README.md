@@ -33,7 +33,7 @@ Structural patterns are about organizing different classes and objects to form l
 | Decorator                                 | Allows you to attach additional responsibilities to an object dynamically.                   | ❌     |
 | Facade                                    | Provides a unified interface to a set of interfaces in a subsystem.                          | ❌     |
 | Flyweight                                 | An object that minimizes memory usage by sharing some of its data with other similar objects | ❌     |
-| Proxy                                     | Provides a substitute or placeholder for another object to control access to it.             | ❌     |
+| [Proxy](./structural/proxy/README.md)     | Provides a substitute or placeholder for another object to control access to it.             | ✅     |
 
 ## Behavioral Patterns
 
@@ -44,7 +44,7 @@ Behavioral patterns are about identifying common communication patterns between 
 | [Chain of Responsibility](./behavioral/chain_of_responsibility/README.md) | Allows you to pass requests along a chain of objects until one of them can handle the request.                            | ❌     |
 | Command                                                                   | Allows you to encapsulate a request as an object, thereby letting you parameterize other objects with different requests. | ❌     |
 | Interpreter                                                               | Allows you to implement an interpreter pattern.                                                                           | ❌     |
-| Iterator                                                                  | Allows you to traverse a set of objects without keeping them in memory.                                                   | ❌     |
+| [Iterator](./behavioral/iterator/README.md)                               | Allows you to traverse a set of objects without exposing its underlying implementation.                                   | ✅     |
 | Mediator                                                                  | Allows you to decouple components that communicate with each other.                                                       | ❌     |
 | Memento                                                                   | Allows you to save and restore the state of an object without breaking its encapsulation.                                 | ❌     |
 | Observer                                                                  | Allows you to decouple the subscriber from the publisher (sender) by implementing the publish/subscribe pattern.          | ❌     |
