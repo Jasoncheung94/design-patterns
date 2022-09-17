@@ -28,7 +28,7 @@ Structural patterns are about organizing different classes and objects to form l
 | Pattern                                       | Description                                                                                  | Status |
 | --------------------------------------------- | -------------------------------------------------------------------------------------------- | ------ |
 | [Adapter](./structural/adapter/README.md)     | Allows objects with incompatible interfaces to collaborate.                                  | ✅     |
-| Bridge                                        | Separates an abstraction from its implementation so that the two can vary independently.     | ❌     |
+| [Bridge](./structural/bridge/README.md)       | Separates an abstraction from its implementation so that the two can vary independently.     | ✅     |
 | Composite                                     | Allows you to compose objects into tree structures to represent part-whole hierarchies.      | ❌     |
 | [Decorator](./structural/decorator/README.md) | Allows you to attach additional responsibilities to an object dynamically.                   | ✅     |
 | [Facade](./structural/facade/README.md)       | Provides a unified interface to a set of interfaces in a subsystem.                          | ✅     |
