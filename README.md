@@ -32,7 +32,7 @@ Structural patterns are about organizing different classes and objects to form l
 | Composite                                     | Allows you to compose objects into tree structures to represent part-whole hierarchies.      | ❌     |
 | [Decorator](./structural/decorator/README.md) | Allows you to attach additional responsibilities to an object dynamically.                   | ✅     |
 | [Facade](./structural/facade/README.md)       | Provides a unified interface to a set of interfaces in a subsystem.                          | ✅     |
-| Flyweight                                     | An object that minimizes memory usage by sharing some of its data with other similar objects | ❌     |
+| [Flyweight](./structural/flyweight/README.md) | An object that minimizes memory usage by sharing some of its data with other similar objects | ✅     |
 | [Proxy](./structural/proxy/README.md)         | Provides a substitute or placeholder for another object to control access to it.             | ✅     |
 
 ## Behavioral Patterns
