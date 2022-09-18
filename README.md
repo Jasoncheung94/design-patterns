@@ -45,7 +45,7 @@ Behavioral patterns are about identifying common communication patterns between 
 | [Command](./behavioral/command/README.md)                                 | Allows you to encapsulate a request as an object, thereby letting you parameterize other objects with different requests. | ✅     |
 | [Interpreter](./behavioral/interpreter/README.md)                         | Allows you to implement an interpreter pattern.                                                                           | ✅     |
 | [Iterator](./behavioral/iterator/README.md)                               | Allows you to traverse a set of objects without exposing its underlying implementation.                                   | ✅     |
-| Mediator                                                                  | Allows you to decouple components that communicate with each other.                                                       | ❌     |
+| [Mediator](./behavioral/mediator/README.md)                               | Allows you to decouple components that communicate with each other.                                                       | ✅     |
 | Memento                                                                   | Allows you to save and restore the state of an object without breaking its encapsulation.                                 | ❌     |
 | Observer                                                                  | Allows you to decouple the subscriber from the publisher (sender) by implementing the publish/subscribe pattern.          | ❌     |
 | State                                                                     | Allows you to encapsulate the current state of an object in an object.                                                    | ❌     |
