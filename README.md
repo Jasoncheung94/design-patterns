@@ -41,7 +41,7 @@ Behavioral patterns are about identifying common communication patterns between 
 
 | Pattern                                                                   | Description                                                                                                               | Status |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------ |
-| [Chain of Responsibility](./behavioral/chain_of_responsibility/README.md) | Allows you to pass requests along a chain of objects until one of them can handle the request.                            | ❌     |
+| [Chain of Responsibility](./behavioral/chain_of_responsibility/README.md) | Allows you to pass requests along a chain of objects until one of them can handle the request.                            | ✅     |
 | Command                                                                   | Allows you to encapsulate a request as an object, thereby letting you parameterize other objects with different requests. | ❌     |
 | Interpreter                                                               | Allows you to implement an interpreter pattern.                                                                           | ❌     |
 | [Iterator](./behavioral/iterator/README.md)                               | Allows you to traverse a set of objects without exposing its underlying implementation.                                   | ✅     |
