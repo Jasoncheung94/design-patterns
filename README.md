@@ -47,11 +47,11 @@ Behavioral patterns are about identifying common communication patterns between 
 | [Iterator](./behavioral/iterator/README.md)                               | Allows you to traverse a set of objects without exposing its underlying implementation.                                   | ✅     |
 | [Mediator](./behavioral/mediator/README.md)                               | Allows you to decouple components that communicate with each other.                                                       | ✅     |
 | [Memento](./behavioral/momento/README.md)                                 | Allows you to save and restore the state of an object without breaking its encapsulation.                                 | ✅     |
-| Observer                                                                  | Allows you to decouple the subscriber from the publisher (sender) by implementing the publish/subscribe pattern.          | ❌     |
-| State                                                                     | Allows you to encapsulate the current state of an object in an object.                                                    | ❌     |
-| Strategy                                                                  | Allows you to define a family of algorithms, put each one in a separate class, and make their objects interchangeable.    | ❌     |
-| Template Method                                                           | Allows you to define the skeleton of an algorithm in an operation, deferring some steps to subclasses.                    | ❌     |
-| Visitor                                                                   | Allows you to separate an algorithm from the data structures that support it.                                             | ❌     |
+| [Observer](./behavioral/observer/README.md)                               | Allows you to decouple the subscriber from the publisher (sender) by implementing the publish/subscribe pattern.          | ✅     |
+| [State](./behavioral/state/README.md)                                     | Allows you to encapsulate the current state of an object in an object.                                                    | ✅     |
+| [Strategy](./behavioral/strategy/README.md)                               | Allows you to define a family of algorithms, put each one in a separate class, and make their objects interchangeable.    | ✅     |
+| [Template Method](./behavioral/template_method/README.md)                 | Allows you to define the skeleton of an algorithm in an operation, deferring some steps to subclasses.                    | ✅     |
+| [Visitor](./behavioral/visitor/README.md)                                 | Allows you to separate an algorithm from the data structures that support it.                                             | ✅     |
 
 ## Concurrency Patterns (TODO) - Find common idioms and patterns with different languages
 
